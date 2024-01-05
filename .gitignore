@@ -1,0 +1,56 @@
+# Environment variables
+.env
+
+# ==============================================
+# PYTHON VIRTUAL ENVIRONMENT
+# ==============================================
+
+# Virtual environment
+socket/venv/
+socket/env/
+socket/*.venv/
+
+# Python cache
+socket/__pycache__/
+
+# Compiled Python files
+socket/*.pyc
+socket/*.pyo
+socket/*.pyd
+
+# Symbolic Links
+socket/lib64
+
+# Dependency folders
+socket/lib/
+socket/bin/
+socket/share/
+socket/include/
+socket/pyvenv.cfg
+socket/pip-selfcheck.json
+
+# Installer logs
+socket/pip-log.txt
+
+# Unit test / coverage reports
+socket/htmlcov/
+socket/.coverage
+
+# VSCode settings (optional)
+socket/.vscode/
+
+# Editor-specific temporary/backup files
+socket/*~
+
+# ==============================================
+# SERVER ENVIRONMENT
+# ==============================================
+# Node.js
+server/node_modules/
+
+# Logs
+server/logs/
+server/*.log
+
+# Dependency lock files
+server/package-lock.json
